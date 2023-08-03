@@ -1,0 +1,6 @@
+echo "enter length of triangle: "
+read l
+echo "enter breadth of triangle: "
+read b
+area=$((l*b))
+echo "the are of triangle "= "$area"
