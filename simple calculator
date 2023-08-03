@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<math.h>
+int main(){
+	int a,b,sum,mul,div,add,i;char d;
+	printf("enter any two numbers:");
+	scanf("%d%d",&a,&b);
+	do{
+	printf("enter you choice 1)sub\n2)add\n3)mul\n4)div\n5)pow");
+	scanf("%d",&i);
+	if(i==1){
+		printf("substraction of two numbers: %d",a-b);
+	}
+	if(i==2){
+		printf("addition of two numbers: %d",a+b);
+	}
+	if(i==3){
+		printf("multiplication of two numbers: %d",a*b);
+	}
+	if(i==4){
+		printf("division of two numbers: %d",a/b);
+	}
+	if(i==5){
+		printf("power of two numbers: %f",pow(a,b));
+	}
+	printf("\nenter a to exit:");
+	scanf("%s",&d);
+}while(d=='a');
+
+}
