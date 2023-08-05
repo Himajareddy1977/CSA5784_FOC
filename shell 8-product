@@ -1,0 +1,5 @@
+#!\bin\bash
+echo "enter any two numbers: "
+read a
+read b 
+echo "the product of two number of $a,$b"=$(($a*$b))
